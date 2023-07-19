@@ -1,4 +1,4 @@
-# smart_blinds
+# Smart WiFi blinds
 Wifi smart blinds
 
 Wifi controlled module to create smart blinds from ordinary blinds.
