@@ -1,0 +1,23 @@
+cover:
+  - platform: mqtt
+    name: "blinds_living_room_middle"
+    command_topic: "blinds/living_room_middle/set"
+    position_topic: "blinds/living_room_middle/position"
+    state_topic: "blinds/living_room_middle/state"
+    set_position_topic: "blinds/living_room_middle/set_position"
+    tilt_command_topic: "blinds/living_room_middle/set_tilt"
+    tilt_status_topic: "blinds/living_room_middle/tilt_state"
+    tilt_status_template: "{{ value }}"
+    qos: 0
+    retain: false
+    payload_open: "UP"
+    payload_close: "DOWN"
+    payload_stop: "OFF"
+    position_open: 100
+    position_closed: 0
+    state_open: "open"
+    state_closed: "closed"
+    payload_available: "online"
+    payload_not_available: "offline"
+    optimistic: false
+    value_template: "{{ value }}"
