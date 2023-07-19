@@ -16,9 +16,12 @@ DC 12V Geared Motor (recommended around 30RPM)
 
 **Requirements:**
 
-working MQTT server
+MQTT server
 
 **Guide:**
 
 Alter blinds.ino, replace all CHANGE_ME_ statements, also change pinout and or blinds names as requested
+
+Compile and flash into ESP controller with Arduino IDE tool
+
 Integrate into Home Assistant using HomeAssistant.yml script
